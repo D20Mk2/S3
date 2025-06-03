@@ -120,6 +120,10 @@ ServerEvents.recipes(e => {
         'minecraft:netherite_block'
     ]).keepIngredient('minecraft:netherite_block')
     e.shapeless('minecraft:blaze_rod', '4x minecraft:blaze_powder')
+	e.shapeless('2x minecraft:basalt', [
+        'minecraft:iron_ingot',
+        'minecraft:basalt'
+    ]).keepIngredient('minecraft:iron_ingot')
 }) //Рудоварка
 ServerEvents.recipes(e => {
     e.shapeless('2x minecraft:cobbled_deepslate', [
